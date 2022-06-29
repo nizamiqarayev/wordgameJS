@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="assets/css/stylestask11.css">
+    <script src="https://kit.fontawesome.com/5221f8b839.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <div class="parent">
+            <div class="header" id="header">
+                <h1>Word Game</h1>
+            </div>
+            <div class="utility" id="utility">
+                <div id="time">Time:</div>
+                <div id="score">Score:</div>
+                <button id="startbutton" type="button" onclick="loadgame()">Start</button>
+            </div>
+            <div class="primary" id="primary">
+                <div class="info">
+                    <h3>How to play</h3>
+                    <ul>
+                        <li>Click the start button to begin</li>
+                        <li>Find as many words as you can</li>
+                        <li>You have only 30 seconds for each word.</li>
+                        <li>If you want to change the word click the "Next Word" button</li>
+                    </ul>
+                </div>
+                <div class="letters" id="letters">
+                    <div class="word" id="word">
+
+                    </div>
+                    <div class="alphabet" id="alphabet">
+
+                    </div>
+                </div>
+                <div class="actions" id="actions">
+                    <button id="nextword" type="button" onclick="loadnextword()">Next Word</button>
+                    <button id="hint" type="button" onclick="hintdisplay()">Hint</button>
+
+                </div>
+            </div>
+        </div>
+
+    </body>
+    <script src="/assets/js/script11.js"></script>
+
+
+</html>
